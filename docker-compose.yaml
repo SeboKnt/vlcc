@@ -1,6 +1,6 @@
 version: '3'
 services:
-  miner:
+  vlc:
     image: seboknt/vlcc:latest
     env_file:
       - .env
