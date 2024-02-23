@@ -1,0 +1,8 @@
+version: '3'
+services:
+  miner:
+    image: seboknt/vlcc:latest
+    env_file:
+      - .env
+    volumes:
+      - ./data:/home/vlc
