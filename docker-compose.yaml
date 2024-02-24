@@ -5,4 +5,4 @@ services:
     env_file:
       - .env
     volumes:
-      - ./data:/home/vlc
+      - ../owncloud/data/files/admin/files/Cam:/home/vlc
